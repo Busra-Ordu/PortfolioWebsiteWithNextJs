@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Hero from "./components/Hero";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <>
-    <h1>hiiiiiiii</h1>
-    </>
+    <main className="flex min-h-screen flex-col bg-[#121212] container mx-auto px-12 py-4">
+      <Header/>
+      <Hero/>
+    </main>
   );
 }
