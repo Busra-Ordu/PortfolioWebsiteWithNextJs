@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -10,16 +11,16 @@ const Hero = () => {
             <div className='col-span-7 place-self-center text-center sm:text-left'>
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400  to-pink-600  '>
-                        Merhaba, {""}
+                        Merhaba,Ben {""}
                         </span>
                         <br />
                         <TypeAnimation
                         sequence={[
-                        'Ben Büşra',
+                        ' Büşra',
                         1000, 
-                        'Bir Frontend Web Developerım',
+                        'Bir Frontend Developerım',
                         1000,
-                        've bunun üzerine Acunmedya Akademide eğitim alıyorum',
+                        'Acunmedya Akademide eğitim alıyorum',
                         1000
                         ]}
                         wrapper="span"
@@ -35,7 +36,10 @@ const Hero = () => {
                      
                 </p>
                 <div>
+                    <Link href="https://www.linkedin.com/in/b%C3%BC%C5%9Fraordu/">
                     <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Linkedin</button>
+                    </Link>
+                    
                     <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white  mt-3'>
                         <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
                         </button>
