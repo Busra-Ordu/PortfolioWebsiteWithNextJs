@@ -20,7 +20,7 @@ const Hero = () => {
                         1000, 
                         'Bir Frontend Developerım',
                         1000,
-                        'Acunmedya Akademide eğitim alıyorum',
+                        'Acunmedyada eğitim alıyorum',
                         1000
                         ]}
                         wrapper="span"
